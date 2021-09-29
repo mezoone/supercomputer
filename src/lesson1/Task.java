@@ -34,24 +34,24 @@ public class Task {
 	}
 
 	public static void one(Scanner sc) {
-		System.out.print("Задание 1\nведите число: ");
+		System.out.print("Задание 1\nВведите число: ");
 		System.out.print("Результат: " + sc.nextInt() % 10 + "\n");
 	}
 
 	public static void two(Scanner sc) {
-		System.out.print("Задание 2\nведите число: ");
+		System.out.print("Задание 2\nВведите число: ");
 		int a = sc.nextInt();
 		System.out.println("Результат: " + (a / 100 + a / 10 % 10 + a % 10));
 	}
 
 	public static void three(Scanner sc) {
-		System.out.print("Задание 3\nведите число: ");
+		System.out.print("Задание 3\nВведите число: ");
 		int a = sc.nextInt();
 		System.out.println("Результат: " + (a > 0 ? a + 1 : a));
 	}
 
 	public static void four(Scanner sc) {
-		System.out.print("Задание 4\nведите число: ");
+		System.out.print("Задание 4\nВведите число: ");
 		int a = sc.nextInt();
 		if (a > 0)
 			a += 1;
@@ -63,11 +63,11 @@ public class Task {
 	}
 
 	public static void five(Scanner sc) {
-		System.out.print("Задание 5\nведите три числа: ");
+		System.out.print("Задание 5\nВведите три числа: ");
 		int d = sc.nextInt();
 		int e = sc.nextInt();
 		int f = sc.nextInt();
-		System.out.print("Минимумальное число: ");
+		System.out.print("Минимальное число: ");
 		if (d <= e && d <= f)
 			System.out.println(d);
 		else if (e <= d && e <= f)
@@ -77,7 +77,7 @@ public class Task {
 	}
 
 	public static void six(Scanner sc) {
-		System.out.print("Задание 6\nведите число: ");
+		System.out.print("Задание 6\nВведите число: ");
 		int a = sc.nextInt();
 		if (a == 0)
 			System.out.println("Ноль");
@@ -92,7 +92,7 @@ public class Task {
 	}
 
 	public static void seven(Scanner sc) {
-		System.out.print("Задание 7\nведите число: ");
+		System.out.print("Задание 7\nВведите число: ");
 		int r = sc.nextInt();
 		if (r == 905)
 			System.out.println("Москва. стоимость разговра: " + 4.15 * 10);
